@@ -66,8 +66,40 @@ function thirdTask(){
     container.append(hr)
 }
 
+function forthTask(){
+    const h1 = document.createElement('h1')
+    h1.append('Четвертое задание')
+    container.append(h1)
+
+    const input = document.createElement('input')
+    container.append(input)
+
+    const buttonPlus = document.createElement('button')
+    buttonPlus.style.width = "100px"
+    buttonPlus.append("Я добавлю +")
+    container.append(buttonPlus)
+
+    const buttonMinus = document.createElement('button')
+    buttonMinus.style.width = "100px"
+    buttonMinus.append("Я добавлю -")
+    container.append(buttonMinus)
+
+    const buttonDivide = document.createElement('button')
+    buttonDivide.style.width = "100px"
+    buttonDivide.append("Я добавлю /")
+    container.append(buttonDivide)
+
+    const buttonMultiply = document.createElement('button')
+    buttonMultiply.style.width = "100px"
+    buttonMultiply.append("Я добавлю *")
+    container.append(buttonMultiply)
+
+}
+
 firstTask();
 
 secondTask();
 
 thirdTask();
+
+forthTask();
